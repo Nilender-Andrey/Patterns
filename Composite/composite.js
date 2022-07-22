@@ -16,6 +16,7 @@ class Equipment {
     this.price = price;
   }
 }
+
 //классы для каждого объекта
 class Engine extends Equipment {
   constructor() {
