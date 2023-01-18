@@ -6,8 +6,8 @@ interface IInsurance {
 }
 
 class TFInsurance implements IInsurance {
-  id: number;
-  status: string;
+  id!: number;
+  status!: string;
   private vehicle: any;
 
   setVehicle(vehicle: any): void {
@@ -25,8 +25,8 @@ class TFInsurance implements IInsurance {
 }
 
 class ABInsurance implements IInsurance {
-  id: number;
-  status: string;
+  id!: number;
+  status!: string;
   private vehicle: any;
 
   setVehicle(vehicle: any): void {
