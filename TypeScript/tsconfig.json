@@ -11,9 +11,9 @@
     // "disableReferencedProjectLoad": true,             /* Reduce the number of projects loaded automatically by TypeScript. */
 
     /* Language and Environment */
-    "target": "ES6" /* Установите версию языка JavaScript для создаваемого JavaScript и включите объявления совместимых библиотек. */,
+    "target": "ES2019" /* Установите версию языка JavaScript для создаваемого JavaScript и включите объявления совместимых библиотек. */,
     "lib": [
-      "ES2016",
+      "ES2019",
       "DOM"
     ] /* Укажите набор связанных файлов, объявлений и библиотек, описывающих среду выполнения. */,
     // "jsx": "preserve",                                /* Specify what JSX code is generated. */
